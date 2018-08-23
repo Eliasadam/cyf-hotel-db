@@ -29,6 +29,8 @@ router.get('/customers/:surname', function(req, res) {
 
 
 router.post('/customers/', function(req, res) {
+
+  
   // EXPECTED JSON Object:
   // {
   //   title: 'Mr',
